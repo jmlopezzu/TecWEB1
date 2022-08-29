@@ -4,20 +4,74 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="description" content="Esta es mi primera pagina web" />
-    <title> Mi Hola Mundo en HTML </title>
+    <title> Tarea Etiquetas HTML - JMLZ </title>
     <link rel="stylesheet" href="style.css"/>
   </head>
 
   <body>
-    <header>
-      <nav></nav>
+    <header> 
+      Este es un sitio especial para practicar las etiquetas aprendidas en el curso de tecnologías web UN.
+      <hr>
+      <nav> Sobre <b>José Miguel</b> :: <address>jmlopezzu@unal.edu.co</address><a href="https://github.com/jmlopezzu">GitHub</a>
+        <a href="https://orcid.org/0000-0002-5621-1216">Orcid</a>
+        <a href="https://scienti.minciencias.gov.co/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0001844350">CvLAC</a>
+      </nav>
     </header>
+    <h1 style="color: rgb(15, 35, 214); font-size: 60px; text-align: center;"> Tarea Etiquetas</h1>
+    <h1 style="color: rgb(41, 111, 240); font-size: 60px; text-align: center;"> José Miguel López Zuluaga </h1>
+    <h2 style="text-align: center"> Programación de Tecnologías Web </h2>
+    <h3>Docentes: Valentina Tabares y Albeiro Montes</h3>
+    <p>El presente documento html es el desarrollo del taller de aplicacion de etiquetas HTML</p>
+    <ul>
+      <li> Facultad de Administración </li>
+      <li> Administración de Sistemas </li>
+      <li> Tecnologías Web </li>
+    </ul>
+    <br>
+    <ol>
+      <b>Objetivos:</b>
+      <li>Crear un documento con los primeros pasos en HTML</li>
+      <li>Detectar y aplicar etiquetas</li>
+      <li>Documentar en GitHub </li>
+    </ol>
+
     <main>
-      <section></section>
+   <figure>
+        <img src="un.png" alt="Escudo de la U Nacional"/>
+        <figcaption>Sede Manizales</figcaption>
+        </figure> 
+    
+        <figure>
+        <img src="gaia.png" alt="Escudo del Grupo de Ambientes Inteligentes Adaptativos"/>
+        <figcaption>Grupo GAIA</figcaption>
+      </figure>
+  
     </main>
 
-    <footer>
+      
+      <h2>Primer formulario</h2>
+    <form action="">
+      <label for="nombre">
+       <span> ¿Cual es tu nombre? </span> 
+      <input type="text" id="nombre" placeholder="Tu nombre"/>
+      </label>
 
+      <label for="edad">
+        <span>¿Que edad tienes?</span>
+        <input type="number" id="edad"/>
+      </label>
+      <label for="hora-clase">
+        <span> ¿A que horas comienza su clase de tecnologias web?</span>
+        <input type="time" id="hora-clase " /> 
+      </label>
+      <button>Guardar</button>
+    </form>
+
+    <footer>
+      <hr>
+      <p style="text-align: center">
+    Tecnologias Web UN Copyright 2022 Powered by GAIA -   JMLZ 
+      </p>
     </footer>
   </body>
 </html>
